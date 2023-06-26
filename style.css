@@ -1,0 +1,72 @@
+.container{
+display:flex;
+flex-direction:column;
+width:100%;
+justify-content:center;
+align-items:center;
+
+
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw; /* Utilize a unidade vw (viewport width) */
+    margin-top: 15vh;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Altere o tamanho da fonte para telas menores */
+    .titulo {
+      font-size: 10vw;
+    }
+  }
+
+.form-group {
+    margin-bottom:5%; /* Adicione um valor de margem inferior aqui */
+    
+  }
+
+ 
+  
+  .entrar {
+    margin:auto;
+    margin-top: 50px; /* Adicione um valor de margem superior aqui */
+    width:20vh;
+    display: block; /* Garante que o botão ocupe toda a largura disponível */
+    border:none;
+    padding:0,8%;
+  }
+
+form{
+    width:30vh;
+    margin-top:100px;
+    }
+
+    @media screen and (max-width: 768px) {
+        /* Altere o tamanho da fonte para telas menores */
+        form {
+          font-size: 6vw;
+          width:20vh;
+        }
+      }
+
+.login-opcoes {
+   
+    margin-top:100px;
+     }
+     
+.login-opcoes button{
+    margin:auto;
+    margin-right:3px;
+    margin-top:3px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Altere o tamanho da fonte para telas menores */
+    .login-opcoes{
+    margin:auto;
+    margin-top:2vh;
+    }
+  }
+
+
